@@ -10,14 +10,16 @@ export default function IndexScreen() {
       
       {/* 3. Aggiorna app/index.tsx */}
       {/* Questo è il componente <Text> principale */}
-      <Text>Schermata di ingresso - Fantastico</Text>
+      <Text>Entry Screen - Awesome</Text>
 
       {/* 5. Aggiungere ulteriori componenti di testo */}
       {/* Inseriamo un nuovo View per contenere gli altri testi */}
       <View>
+            
         <Text style={styles.largeText}>Typescript is great if you practice more</Text>
         <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
         <Text style={styles.smallText}>ALX is awesome</Text>
+
       </View>
 
     </View>
