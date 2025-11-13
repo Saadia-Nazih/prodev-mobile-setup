@@ -1,21 +1,59 @@
-# Report Setup Ambiente Mobile (Expo 0)
+# Welcome to your Expo app 👋
 
-Questo documento descrive il processo di configurazione del mio ambiente di sviluppo per React Native.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## 1. Prerequisiti sul Computer
+## Get started
 
-* **OS:** Windows 11 (oppure macOS Big Sur, o Ubuntu 22.04...)
-* **Node.js:** Installato, versione LTS (es. `v18.18.0`)
-* **IDE:** VS Code installato.
+1. Install dependencies
 
-## 2. Configurazione di Expo Go
+   ```bash
+   npm install
+   ```
 
-* **Dispositivo:** [Scrivi il modello del tuo telefono, es: Samsung Galaxy S21 / iPhone 14]
-* **Installazione:** Ho installato con successo l'app **Expo Go** dal [Google Play Store / Apple App Store].
-* **Account:** Ho aperto l'app e creato un nuovo account Expo con la mia email.
+2. Start the app
 
-## 3. Sfide Incontrate
+   ```bash
+   npx expo start
+   ```
 
-* [Qui scrivi se hai avuto problemi. Se è andato tutto liscio, scrivilo!]
-* *Esempio 1 (tutto liscio):* Non ho incontrato nessuna sfida particolare. L'installazione di Expo Go è stata semplice e diretta come per qualsiasi altra app.
-* *Esempio 2 (se hai avuto un dubbio):* Inizialmente non ero sicuro se dovessi già creare un'app React Native, ma poi ho capito che questo task "Expo 0" era solo per l'installazione degli strumenti e la scrittura di questo report.
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+To create the app, I navigated to the prodev-mobile-app-0x00 directory and ran the command "npx create-expo-app@latest .."
+
+Observations from the reset-project command:
+
+This is the part you experienced firsthand!
+I ran the npm run reset-project command. When asked "Do you want to move existing files... (Y/n)," I answered "n." This immediately deleted all the main source code directories (such as /app, /components, /constants, etc.), losing any changes I'd made. The script then created a new, minimal /app folder, restoring the project to an empty state.
