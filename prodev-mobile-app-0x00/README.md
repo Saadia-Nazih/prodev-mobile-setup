@@ -57,3 +57,9 @@ Observations from the reset-project command:
 
 This is the part you experienced firsthand!
 I ran the npm run reset-project command. When asked "Do you want to move existing files... (Y/n)," I answered "n." This immediately deleted all the main source code directories (such as /app, /components, /constants, etc.), losing any changes I'd made. The script then created a new, minimal /app folder, restoring the project to an empty state.
+
+The npm run reset-project command didn't work because the scripts/reset-project.js script was missing from the template. To complete the task, I manually simulated the process:
+
+I created an app-example folder.
+
+I copied the modified app folder (containing "** First app created**") into app-example, simulating the saving of the work required by the task.
