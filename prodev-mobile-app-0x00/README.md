@@ -50,7 +50,7 @@ Join our community of developers creating universal apps.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 
-
+The npm run reset-project script was missing.
 To create the app, I navigated to the prodev-mobile-app-0x00 directory and ran the command "npx create-expo-app@latest .."
 
 Observations from the reset-project command:
