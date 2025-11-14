@@ -4,7 +4,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       {/* Questo è il testo richiesto al Passaggio 3 */}
-      <Text>"Schermata di ingresso - Fantastico"</Text>
+      <Text>Entry Screen - Awesome</Text>
 
       {/* Questo è il gruppo di testo richiesto al Passaggio 4 */}
       <View>
