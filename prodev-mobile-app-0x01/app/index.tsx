@@ -1,36 +1,29 @@
-// Importiamo i componenti necessari da react-native
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View, Text } from 'react-native';
 
-// Questa è la schermata principale della nostra app
-export default function IndexScreen() {
+export default function HomeScreen() {
   return (
-    // 4. Modifica il componente Root <View>
-    // Applichiamo lo stile 'styles.container' al View principale
     <View style={styles.container}>
-      
-      {/* 3. Aggiorna app/index.tsx */}
-      {/* Questo è il componente <Text> principale */}
-      <Text>Entry Screen - Awesome</Text>
+      {/* Questo è il testo richiesto al Passaggio 3 */}
+      <Text>"Schermata di ingresso - Fantastico"</Text>
 
-      {/* 5. Aggiungere ulteriori componenti di testo */}
-      {/* Inseriamo un nuovo View per contenere gli altri testi */}
+      {/* Questo è il gruppo di testo richiesto al Passaggio 4 */}
       <View>
-            
         <Text style={styles.largeText}>Typescript is great if you practice more</Text>
         <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
         <Text style={styles.smallText}>ALX is awesome</Text>
-
       </View>
-
     </View>
   );
 }
 
-// 5. Definisci i tuoi stili
-// Qui creiamo tutti gli stili che abbiamo usato sopra
+// Questo è l'oggetto StyleSheet richiesto al Passaggio 5
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#90caf9",
+    // Per centrare il contenuto (bonus, non richiesto ma utile!)
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   largeText: {
     fontSize: 30,
